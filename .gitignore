@@ -1,0 +1,33 @@
+# Composer dependencies
+/vendor/
+
+# Composer lock file (optional, if you don't want to track changes to it)
+# composer.lock
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE and editor files
+/.idea/
+/.vscode/
+/*.sublime-workspace
+/*.sublime-project
+
+# Logs
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# PHPUnit
+.phpunit.result.cache
+
+# Other files to ignore
+/node_modules/
+npm-debug.log
+package-lock.json
+yarn-error.log
+yarn.lock
